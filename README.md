@@ -1,3 +1,7 @@
+## Fork des "tests-ruby" passés à la moulinette pour devenir fonctionnels selon les specs.
+
+
+==========
 Small exercices in Ruby -- RSpec 3 Edition
 ==========
 
