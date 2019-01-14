@@ -20,4 +20,6 @@ end
 
 def magic_array(arr)
 	return arr.flatten.map{|x| x*2}.select{|x| x%3 !=0}.uniq.sort
+	#return arr.flatten.map{|x| x*2}.select{|x| x%3 !=0}.uniq.sort
+	#return arr.flatte.map{|a|2*a}.delete_if{|x|x%3==0}.uniq.sort
 end
