@@ -48,13 +48,13 @@ describe "#translate" do
 
   # Test-driving bonus:
   # * write a test asserting that capitalized words are still capitalized (but with a different initial capital letter, of course)
-  it "keeps the capitalization at the start of previously capitalized words" do
+  it "[BONUS TEST] keeps the capitalization at the start of previously capitalized words" do
     s = translate("Mr President Alfred is working on international affairs")
     expect(s).to eq("Mray Esidentpray Lafreday isay orkingway onay internationalay affairsay")
   end
 
    # * retain the punctuation from the original phrase
-  it "retain the punctuation from the original phrase" do
+  it "[BONUS TEST] retains the punctuation from the original phrase" do
     s = translate("Mr President, Alfred is working on international affairs")
     expect(s).to eq("Mray Esidentpray, Lafreday isay orkingway onay internationalay affairsay")
   end
